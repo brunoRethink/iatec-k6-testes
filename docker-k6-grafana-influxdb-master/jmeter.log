@@ -1,0 +1,25 @@
+2022-11-24 14:10:44,024 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-11-24 14:10:44,040 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.5/libexec/bin/user.properties
+2022-11-24 14:10:44,040 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.5/libexec/bin/system.properties
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: Version 5.5
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: java.version=19.0.1
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: os.name=Mac OS X
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: os.arch=aarch64
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: os.version=13.0.1
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: java.awt.headless=null
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-11-24 14:10:44,044 INFO o.a.j.JMeter: Available Processors =10
+2022-11-24 14:10:44,051 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-11-24 14:10:44,051 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-11-24 14:10:44,051 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.5/libexec
+2022-11-24 14:10:44,051 INFO o.a.j.JMeter: user.dir  =/Users/anonymousbr/Estudos/K6/tpk6/k6_k8s_tests/docker-k6-grafana-influxdb-master
+2022-11-24 14:10:44,051 INFO o.a.j.JMeter: PWD       =/Users/anonymousbr/Estudos/K6/tpk6/k6_k8s_tests/docker-k6-grafana-influxdb-master
+2022-11-24 14:10:44,061 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: MacBook-Pro-de-Anonymous.local FullName: localhost
+2022-11-24 14:10:44,068 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-11-24 14:10:44,382 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:javax.swing.plaf.metal.MetalLookAndFeel
+2022-11-24 14:10:45,985 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=mac_os_x-a6eff6d7980275c8d8867994bb571d0c-gui
+2022-11-24 14:10:48,349 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-perfmon=2.1, jpgc-plugins-manager=1.8, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2022-11-24 14:14:19,434 INFO o.a.j.u.JMeterUtils: Setting Locale to pt_BR
