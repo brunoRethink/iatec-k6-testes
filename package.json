@@ -1,0 +1,25 @@
+{
+  "name": "iatec-k6",
+  "version": "1.0.0",
+  "description": "Projeto de teste de performance com k6",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "webpack",
+    "test": "k6 run dist/FinancialAgreements.test.js"
+  },
+  "author": "Bruno Costa - Rethink",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "core-js": "^3.26.1",
+    "k6": "0.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "playwright": "^1.28.1"
+  }
+}
