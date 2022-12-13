@@ -5,7 +5,8 @@ module.exports = {
   mode: process.env.NODE_ENV,
   entry: {
     FinancialAgreements: './microservices_test/test/financialAgreements/FinancialAgreements.test.js',
-    GenerateBillet: './microservices_test/test/billet/GenerateBillet.test.js'
+    GenerateBillet: './microservices_test/test/billet/GenerateBillet.test.js',
+    ContractEdition: './microservices_test/test/saveContract/ContractEdition.test.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
