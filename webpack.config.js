@@ -4,7 +4,8 @@ const path = require('path');
 module.exports = {
   mode: process.env.NODE_ENV,
   entry: {
-    FinancialAgreements: './microservices_test/api/test/financialAgreements/FinancialAgreements.test.js',
+    FinancialAgreements: './microservices_test/test/financialAgreements/FinancialAgreements.test.js',
+    GenerateBillet: './microservices_test/test/billet/GenerateBillet.test.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

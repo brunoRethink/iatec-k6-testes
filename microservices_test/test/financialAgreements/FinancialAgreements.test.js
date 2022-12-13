@@ -1,5 +1,5 @@
 import { group, check } from 'k6'
-import FinancialAgreements from '../../request/financialAgreements/FinancialAgreements.request.js'
+import FinancialAgreements from '../../api/request/financialAgreements/FinancialAgreements.request.js'
 
 export default function () {
     let financialAgreements = new FinancialAgreements()

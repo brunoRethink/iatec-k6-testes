@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "pretest": "webpack",
-    "test": "k6 run dist/FinancialAgreements.test.js"
+    "test:FinancialAgreements": "k6 run dist/FinancialAgreements.test.js",
+    "test:SearchContract": "k6 run dist/SearchContract.test.js",
+    "test:ChangeContract": "k6 run dist/ChangeContract.test.js"
   },
   "author": "Bruno Costa - Rethink",
   "license": "MIT",

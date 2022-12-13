@@ -1,9 +1,7 @@
 import http from "k6/http"
-import Utils from "../../utils/utils"
+import Utils from "../../../utils/utils.js"
 
 export default class FinancialAgreements {
-    v1 = '/api/v1/FinancialAgreements'
-
     geFinancialAgreements(){
         let response  = http.get(`${Utils.baseURL()}/api/v1/FinancialAgreements`, {
             headers: {
