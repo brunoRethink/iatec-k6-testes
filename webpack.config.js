@@ -6,7 +6,8 @@ module.exports = {
   entry: {
     FinancialAgreements: './microservices_test/test/financialAgreements/FinancialAgreements.test.js',
     GenerateBillet: './microservices_test/test/billet/GenerateBillet.test.js',
-    ContractEdition: './microservices_test/test/saveContract/ContractEdition.test.js'
+    ContractEdition: './microservices_test/test/saveContract/ContractEdition.test.js',
+    DeleteFileProcessing: './microservices_test/test/bankReturnFile/DeleteFileProcessing.test.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

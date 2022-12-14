@@ -4,7 +4,7 @@ import ContractEdition from '../../api/request/saveContract/ContractEdition.requ
 export default function () {
     let contract = new ContractEdition()
 
-    group('GET - /api/v1/FinancialAgreements', () => {
+    group('POST - /AccountsReceiving/AccountsReceiving/Save', () => {
         let res = contract.getContract()
         check(res, {
             'Should be return 200': (r) => r.status === 200
