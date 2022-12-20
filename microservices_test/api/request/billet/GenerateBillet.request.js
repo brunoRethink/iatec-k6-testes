@@ -10,15 +10,12 @@ export default class GenerateBillet {
         jar.set('https://7edu-br-financial-sandbox.educadventista.org/', '61d33f5595754788327b8bee0e2dd0d3', 'cK0OOPUERh6or3rh5MeOoP/vziZJFMnRVPEjpqhy0vQ9JrneRk1LgtIwtJ6VCniu+R/xKYOVtXzEI6ckqZ5aPaAlujmQo2I1o2l6N6OY9XqYXhtLVslFCKpgQtv7BX+cspZbWQtjXCAAYGwZE6yVExPuXqUB3B98jNv4B+9w7PGQGG/YOUbd40Flqg+6diSN');
         jar.set('https://7edu-br-financial-sandbox.educadventista.org/', 'ContextSelected', '{%22LegalEntityId%22:%227f024adf-1ef6-4e40-87a6-73ea434bed4b%22,%22EntityId%22:%227cbf6f1e-08b7-4eb8-890b-1a42e5c52f15%22,%22EntityDescription%22:%22Colegio Adventista de Sao Bernardo do Campo%22,%22SdaSystemId%22:%2256a63456-36c0-42b6-8aae-214001f867c7%22}');
 
-        // let resBilletArray = []
         Data.billetId.forEach(id => {
-            let res = http.get(`https://7edu-br-financial-sandbox.educadventista.org/api/v1/billet/aebb2b17-bdd7-4cf3-8891-7d9f8712538e/Print`)
+            let res = http.get(`https://7edu-br-financial-sandbox.educadventista.org/api/v1/billet/${id}/Print`)
             check(res, {
                 'Should be return 200': (r) => r.status === 200
             })
             console.log(`${res.body} | STATUS = ${res.status}`)
-            // resBilletArray.push(res.status)    
         })
-        // return resBilletArray
     }
 }

@@ -7,7 +7,12 @@ module.exports = {
     FinancialAgreements: './microservices_test/test/financialAgreements/FinancialAgreements.test.js',
     GenerateBillet: './microservices_test/test/billet/GenerateBillet.test.js',
     ContractEdition: './microservices_test/test/saveContract/ContractEdition.test.js',
-    DeleteFileProcessing: './microservices_test/test/bankReturnFile/DeleteFileProcessing.test.js'
+    ContractEdition3: './microservices_test/test/saveContract/ContractEdition3.test.js',
+    ContractEdition2: './microservices_test/test/saveContract/ContractEdition2.test.js',
+    DeleteFileProcessing: './microservices_test/test/bankReturnFile/DeleteFileProcessing.test.js',
+    CantransferBatch: './microservices_test/test/cashierManagement/CantransferBatch.test.js',
+    CurrentAccount: './microservices_test/test/currentAccounts/CurrentAccount.test.js',
+    SearchContract: './microservices_test/site/contrato/SearchContract.test.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

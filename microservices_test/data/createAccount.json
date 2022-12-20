@@ -1,0 +1,16 @@
+{
+    "currentAccountId": "c7b98ae1-3667-4850-8540-0898308a4429",
+    "date": "2022-06-10T15:54:47.68",
+    "contractId": "994830e0-23b2-449e-8d0f-c700f833e732",
+    "serviceId": "7a325d6c-7fda-4a51-ae52-e2c971b60dad",
+    "accountsReceivableTypeId": "195abe37-2d5c-44d2-93f3-e19455adace3",
+    "value": -156.66,
+    "levelId": "c5c9c902-8a53-4523-a3a1-bdf51649be0d",
+    "observation": null,
+    "journalId": "cc3892ab-7d8d-4f30-9adb-7a3405d8a32f",
+    "transactionAfsId": "caf8bdc5-e238-44c9-8f4c-c0358bd5fcdb",
+    "toAccount": true,
+    "cancelled": false,
+    "username": "RETHINK USER",
+    "generatedDate": "2022-06-10T15:54:47.68"
+}
